@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtle_sim"/>
+    <node pkg="hw3_pkg" type="hw3_node.py" name="hw3_node"/>
+</launch>
+
